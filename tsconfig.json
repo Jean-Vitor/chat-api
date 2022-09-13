@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+    "target": "es5",
+    "outDir": ".build",
+    "moduleResolution": "node",
+    "lib": [
+      "es2019"
+    ],
+    "rootDir": "./",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "**/*.d.ts"
+  ]
+}
