@@ -1,0 +1,50 @@
+{
+  "env": {
+      "commonjs": true,
+      "es2021": true
+  },
+  "extends": [
+      "airbnb-base",
+      "airbnb-typescript/base",
+      "prettier"
+  ],
+  "plugins": [
+      "prettier"
+  ],
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module",
+      "project": "./tsconfig.json"
+  },
+  "settings": {
+      "import/resolver": {
+          "node": {
+              "extensions": [".js", ".ts"]
+          }
+      }
+  },
+  "rules": {
+      "prettier/prettier": ["error", {
+          "printWidth": 120,
+          "singleQuote": true,
+          "tabWidth": 2,
+          "trailingComma": "es5"
+      }],
+      "global-require": "off",
+      "@typescript-eslint/return-await": "off",
+      "import/prefer-default-export": "off",
+      "no-underscore-dangle": "off",
+      "max-len": [2, { "code": 120, "ignoreRegExpLiterals": true, "ignoreStrings": true }],
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+              "vars": "all",
+              "args": "all",
+              "ignoreRestSiblings": false,
+              "varsIgnorePattern": "(debug|log|context)",
+              "argsIgnorePattern": "(context|_id)"
+          }
+      ]
+  }
+}
