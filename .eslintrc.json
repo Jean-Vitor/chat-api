@@ -37,7 +37,7 @@
       "max-len": [2, { "code": 120, "ignoreRegExpLiterals": true, "ignoreStrings": true }],
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": [
-          "error",
+          "warn",
           {
               "vars": "all",
               "args": "all",

@@ -23,6 +23,7 @@
     "skipLibCheck": true,
     "removeComments": true,
     "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true
   },
   "include": [
     "**/*.ts",
